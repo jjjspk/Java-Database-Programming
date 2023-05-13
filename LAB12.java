@@ -35,10 +35,10 @@ public class LAB12 {
              PreparedStatement preparedStatement = connection.prepareStatement(sql);             
              preparedStatement.setString(1, "111111");
              preparedStatement.setString(2, "Ryan");
-                preparedStatement.setString(3, "jack.rya@gmail.com");
-                preparedStatement.setString(4, "IT");
+             preparedStatement.setString(3, "jack.rya@gmail.com");
+             preparedStatement.setString(4, "IT");
 
-                          
+             preparedStatement.executeUpdate();       
                    
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(LAB8.class.getName()).log(Level.SEVERE, null, ex);
